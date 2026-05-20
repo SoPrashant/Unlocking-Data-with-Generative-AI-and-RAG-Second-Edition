@@ -14,6 +14,7 @@ env/
 *.env
 env.txt
 *env.txt
+*/env.txt
 
 # Jupyter
 .ipynb_checkpoints/
