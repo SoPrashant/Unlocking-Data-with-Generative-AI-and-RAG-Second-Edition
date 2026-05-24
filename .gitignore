@@ -10,11 +10,13 @@ venv/
 env/
 
 # Environment files (VERY IMPORTANT)
-.env
+env.txt
 *.env
 env.txt
 *env.txt
 */env.txt
+# Ignore all env.txt files in any folder
+**/env.txt
 
 # Jupyter
 .ipynb_checkpoints/
