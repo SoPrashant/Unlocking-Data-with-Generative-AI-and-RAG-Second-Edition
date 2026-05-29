@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment files (VERY IMPORTANT)
+env.txt
+*.env
+env.txt
+*env.txt
+*/env.txt
+# Ignore all env.txt files in any folder
+**/env.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data (RAG specific)
+data/
+datasets/
+*.csv
+*.json
+*.parquet
+
+# Vector DB (VERY IMPORTANT for RAG)
+chroma/
+faiss_index/
+*.faiss
+
+# Models / embeddings
+models/
+*.bin
+*.pt
+
+# Cache
+.cache/
